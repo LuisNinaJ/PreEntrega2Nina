@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- linkeo bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <!-- HEADER -->
-    <header class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <header class="navbar bg-dark navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -44,12 +45,149 @@
             </nav>
         </div>
     </header>
-
-
     <!-- END HEADER -->
 
+    <!-- MAIN -->
+    <main class="bg-color">
+        <!-- CAROUSEL -->
+        <div id="carouselExampleIndicators" class="carousel slide rounded-4">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/Corousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Corousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Corousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- END CAROUSEL -->
+
+        <!-- SECCION PRDUCOTOS -->
+        <section class="container my-5">
+            <div class="row gap-5">
+                <h2 class="fw-bold">Nuevos Productos</h2>
+
+                <!-- TARJETAS -->
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow producto" style="width: 18rem;">
+                    <img src="./img/producto.jpg" class="card-img-top mt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LAPTOP LENOVO AMD A4 9120C</h5>
+                        <p class="card-text text-center text-tarjeta">PANTALLA 11.6" PULGADAS HD TN, RAM 4GB, DISCO SOLIDO SSD 32GB, SO CHROME OS</p>
+                        <div class="d-flex  justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bold">$129.00</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END TARJETAS -->
+            
+            
+            </div>
+
+        </section>
+        <!-- END SECCION PRDUCOTOS -->
+    </main>
+    <!-- END MAIN -->
+
+    <!-- FOOTER -->
+
+    <!-- END FOOTER -->
+
+
     <!-- Script BootStrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
 </body>
 
