@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .bg-color{
     background-color: rgba(108, 113, 113, 0.042);
 }
