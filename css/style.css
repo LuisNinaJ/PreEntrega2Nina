@@ -10,11 +10,12 @@ a{
 .producto{
     cursor: pointer;
     transition-property: box-shadow;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
 }
 
 .producto:hover{
-    box-shadow: 0 1.5rem 3rem rgba(0,0,0,0.2)!important;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.552)!important;
+    border: solid 3px rgba(0, 0, 0, 0.475);
 }
 
 .text-tarjeta{
