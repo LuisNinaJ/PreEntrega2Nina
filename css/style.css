@@ -1,6 +1,22 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
 a{
     text-decoration: none;
     color: black;
+}
+.text-color{
+    color: #17fa79;
+    font-size: 30px;
+}
+
+h2{
+    color: #07a74c;
+}
+
+.nav-personal{
+    padding: 20px;
 }
 
 .bg-color{
@@ -14,8 +30,8 @@ a{
 }
 
 .producto:hover{
-    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.552)!important;
-    border: solid 3px rgba(0, 0, 0, 0.475);
+    box-shadow: 0 0.5rem 3rem #68b88a62!important;
+    border: solid 2px #0ba44e;
 }
 
 .text-tarjeta{
@@ -44,4 +60,21 @@ a{
     border: solid 3px rgba(0, 0, 0, 0.475);
 }
 
+
+/* BNT */
+
+.btn-principal{
+    border: 2px solid #17fa79;
+    border-radius: 15px;
+    background-color: #17fa79;
+    color: black;
+    transition: 0.2 ease-in;
+}
+
+.btn-principal:hover{
+    border: 2px solid #17fa79;
+    color: #17fa79;
+    background-color: black;
+
+}
 
