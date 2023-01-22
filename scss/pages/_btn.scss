@@ -1,0 +1,14 @@
+.btn-principal{
+    border: 2px solid $Color-primary;
+    border-radius: 15px;
+    background-color: $Color-primary;
+    color: black;
+    transition: 0.2 ease-in;
+}
+
+.btn-principal:hover{
+    border: 2px solid $Color-primary;
+    color: $Color-primary;
+    background-color: black;
+
+}

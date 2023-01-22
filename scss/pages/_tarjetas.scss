@@ -1,0 +1,14 @@
+.producto{
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.4s;
+}
+
+.producto:hover{
+    box-shadow: 0 0.5rem 3rem #68b88a62!important;
+    border: solid 2px #0ba44e;
+}
+
+.text-tarjeta{
+    font-size: 13px;
+}

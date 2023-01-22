@@ -1,6 +1,75 @@
-.compu{
-    background-color: red;
-  
+.producto {
+  cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: 0.4s;
+}
+
+.producto:hover {
+  box-shadow: 0 0.5rem 3rem rgba(104, 184, 138, 0.3843137255) !important;
+  border: solid 2px #0ba44e;
+}
+
+.text-tarjeta {
+  font-size: 13px;
+}
+
+.contacto {
+  transition-property: box-shadow;
+  transition-duration: 0.4s;
+}
+
+.contacto:hover {
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.552) !important;
+  border: solid 3px rgba(0, 0, 0, 0.475);
+}
+
+.btn-principal {
+  border: 2px solid #17fa79;
+  border-radius: 15px;
+  background-color: #17fa79;
+  color: black;
+  transition: 0.2 ease-in;
+}
+
+.btn-principal:hover {
+  border: 2px solid #17fa79;
+  color: #17fa79;
+  background-color: black;
+}
+
+.componentes {
+  width: 100%;
+  height: 80px;
+  background: green;
+}
+
+.nav-personal {
+  padding: 20px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-color {
+  color: #17fa79;
+  font-size: 30px;
+}
+
+nav h1 {
+  color: #17fa79 !important;
+}
+nav h2 {
+  color: #17fa79;
+}
+
+h2 {
+  color: #07a74c;
 }
 
 /*# sourceMappingURL=styles.css.map */
